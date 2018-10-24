@@ -15,7 +15,7 @@ var y=0
 var window_width = window.innerWidth;
 var number_of_images = 300 // Desktop - Need to also change in JSON query to Flickr.
 var image_size = "m"
-if (window_width < 1000) {number_of_images = 100; image_size="q"}  // Mobile
+if (window_width < 1000) {image_size="q"}  // Mobile
 
 function jsonFlickrApi(rsp) {
 var a = '';
